@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cj123/canijailbreak.com/model"
+	"github.com/30440r/canijailbreak/model"
 
 	"gopkg.in/yaml.v2"
 )
@@ -38,7 +38,7 @@ func validateJailbreak(jailbreak *model.Jailbreak) error {
 		return err
 	}
 
-	r.Header.Add("User-Agent", "canijailbreak.com")
+	r.Header.Add("User-Agent", "canijailbreak")
 
 	res, err := http.DefaultClient.Do(r)
 
