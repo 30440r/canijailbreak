@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://github.com/30440r/30440r.github.io/blob/master/img/cydia.png?raw=true"><br>
-  canijailbreak, 30440r's version
+  canijailbreak
 </h1>
 
 <p align="center">
